@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   events_with_MiniLibX.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lmedeiro <lmedeiro@student.42.fr>          +#+  +:+       +#+        */
+/*   By: luanny <luanny@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/01 12:34:20 by lmedeiro          #+#    #+#             */
-/*   Updated: 2022/12/01 16:30:07 by lmedeiro         ###   ########.fr       */
+/*   Updated: 2022/12/02 11:39:59 by luanny           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,7 @@ typedef struct s_data
 	void *win_ptr;
 }
 t_data;
-//O objeto 't-data' é um endereço de dados. Contém todas as coisas que precisamos
-//acessar dentro do handle_input.
+//O objeto 't-data' é um endereço de dados. Contém todas as coisas que precisamos acessar dentro do handle_input.
 
 int handle_no_event(void *data)
 {
